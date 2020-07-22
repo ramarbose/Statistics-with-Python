@@ -1,0 +1,15 @@
+To reading data into the system in the correct format and checking for erroneous or missing entries is often one of the most time consuming parts of the data analysis.
+
+Data input can be complicated by a number of problems, like different separators between data entries (such as spaces and/or tabulators), or empty lines at the end of the file. 
+In addition, data may have been saved in different formats, such as MS Excel, Matlab, HDF5 (which also includes the Matlab-format), or in databases. Understandably,
+we cannot cover all possible input options. 
+
+
+Input from Text Files 
+
+A typical workflow can contain the following steps:
+• Changing to the folder where the data are stored.
+• Listing the items in that folder.
+• Selecting one of these items, and reading in the corresponding data.
+• Checking if the data have been read in completely, and in the correct format.
+
